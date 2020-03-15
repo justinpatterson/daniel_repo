@@ -33,7 +33,7 @@ public class BasicEnemy : MonoBehaviour
                 attackCooldown = 1f;
                 if (target.GetComponent<CharacterStats>())
                 {
-                    target.GetComponent<CharacterStats>().DamageCharacter(1f);
+                    target.GetComponent<CharacterStats>().DamageCharacter(2f);
                 }
             }
             else
